@@ -4,6 +4,7 @@
 -----------------------------------------------------------------------------------
 
 1. [AndroidManifest.xml]에서 수정
+
 <activity
             android:name=".SplashActivity"
             android:screenOrientation="fullSensor"
