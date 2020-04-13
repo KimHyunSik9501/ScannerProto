@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/CameraButton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Camera Scan" />
+    // 카메라 스캔 버튼.
+
+    <Button
+        android:id="@+id/ImageButton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="275dp"
+        android:text="Image Scan" />
+    // 이미지 스캔 버튼.
+
+    <Button
+        android:id="@+id/StoredButton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="450dp"
+        android:text="Stored" />
+    // 저장 목록 버튼.
+
+
+    <ImageView
+        android:id="@+id/cameraimage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="84dp"
+        app:srcCompat="@mipmap/cameraicon" /> // 이거 오류 아니에요ㅠ!
+
+    <ImageView
+        android:id="@+id/galleryimage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="260dp"
+        app:srcCompat="@mipmap/galleryicon" /> // 이것도요!
+
+    <ImageView
+        android:id="@+id/listimage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginBottom="89dp"
+        app:srcCompat="@mipmap/listicon" /> // 이것도..
+
+</RelativeLayout>
