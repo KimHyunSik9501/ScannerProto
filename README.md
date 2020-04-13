@@ -4,21 +4,20 @@
 -----------------------------------------------------------------------------------
 
 1. [AndroidManifest.xml]에서 수정
-
 <activity
-            android:name=".SplashActivity"
-            android:screenOrientation="fullSensor"
-            android:theme="@style/SplashTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+  android:name=".SplashActivity"
+  android:screenOrientation="fullSensor"
+  android:theme="@style/SplashTheme">
+  <intent-filter>
+    <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".camerascan" />
-        <activity android:name=".imagescan" />
-        <activity android:name=".stored" />
-        <activity android:name=".MainActivity"/>
+   <category android:name="android.intent.category.LAUNCHER" />
+  </intent-filter>
+</activity>
+<activity android:name=".camerascan" />
+<activity android:name=".imagescan" />
+<activity android:name=".stored" />
+<activity android:name=".MainActivity"/>
         
 -----------------------------------------------------------------------------------
 
